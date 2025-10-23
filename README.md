@@ -10,87 +10,88 @@ All implementations are done in **PyTorch Geometric** and verified in **Google C
 ## 📁 Folder Structure
 
 gnnfingers/
-│
-├── Graph_Matching/
-│   ├── LINUX/
-│   │   ├── Graph_Matching_LINUX.ipynb
-│   │   ├── models/
-│   │   │   ├── target/
-│   │   │   ├── positive/
-│   │   │   └── negative/
-│   │   ├── verifier/
-│   │   └── results/
-│   │       ├── evaluation_results.csv
-│   │       └── summary.json
-│   │
-│   └── AIDS/
-│       ├── Graph_Matching_AIDS.ipynb
-│       ├── models/
-│       │   ├── target/
-│       │   ├── positive/
-│       │   └── negative/
-│       ├── verifier/
-│       └── results/
-│           ├── evaluation_results.csv
-│           └── summary.json
-│
-├── Link_Prediction/
-│   ├── Citeseer/
-│   │   ├── Link_prediction_Citeseer.ipynb
-│   │   ├── models/
-│   │   │   ├── target/
-│   │   │   ├── positive/
-│   │   │   └── negative/
-│   │   ├── verifier/
-│   │   └── results/
-│   │       ├── evaluation_results.csv
-│   │       └── summary.json
-│   │
-│   └── Cora/
-│       ├── Link_prediction_Cora.ipynb
-│       ├── models/
-│       │   ├── target/
-│       │   ├── positive/
-│       │   └── negative/
-│       ├── verifier/
-│       └── results/
-│           ├── evaluation_results.csv
-│           └── summary.json
-│
-├── Node_Classification/
-│   ├── Citeseer/
-│   │   ├── Node_classification_Citeseer.ipynb
-│   │   ├── models/
-│   │   │   ├── target/
-│   │   │   ├── positive/
-│   │   │   └── negative/
-│   │   ├── verifier/
-│   │   └── results/
-│   │       ├── evaluation_results.csv
-│   │       └── summary.json
-│   │
-│   └── Cora/
-│       ├── Node_classification_Cora.ipynb
-│       ├── models/
-│       │   ├── target/
-│       │   ├── positive/
-│       │   └── negative/
-│       ├── verifier/
-│       └── results/
-│           ├── evaluation_results.csv
-│           └── summary.json
-│
-└── Graph_Classification/
-    └── PROTEIN/
-        ├── Graph_classification_PROTEIN.ipynb
-        ├── models/
-        │   ├── target/
-        │   ├── positive/
-        │   └── negative/
-        ├── verifier/
-        └── results/
-            ├── evaluation_results.csv
-            └── summary.json
+|
+|-- Graph_Matching/
+|   |-- LINUX/
+|   |   |-- Graph_Matching_LINUX.ipynb
+|   |   |-- models/
+|   |   |   |-- target/
+|   |   |   |-- positive/
+|   |   |   |-- negative/
+|   |   |-- verifier/
+|   |   |-- results/
+|   |       |-- evaluation_results.csv
+|   |       |-- summary.json
+|   |
+|   |-- AIDS/
+|       |-- Graph_Matching_AIDS.ipynb
+|       |-- models/
+|       |   |-- target/
+|       |   |-- positive/
+|       |   |-- negative/
+|       |-- verifier/
+|       |-- results/
+|           |-- evaluation_results.csv
+|           |-- summary.json
+|
+|-- Link_Prediction/
+|   |-- Citeseer/
+|   |   |-- Link_prediction_Citeseer.ipynb
+|   |   |-- models/
+|   |   |   |-- target/
+|   |   |   |-- positive/
+|   |   |   |-- negative/
+|   |   |-- verifier/
+|   |   |-- results/
+|   |       |-- evaluation_results.csv
+|   |       |-- summary.json
+|   |
+|   |-- Cora/
+|       |-- Link_prediction_Cora.ipynb
+|       |-- models/
+|       |   |-- target/
+|       |   |-- positive/
+|       |   |-- negative/
+|       |-- verifier/
+|       |-- results/
+|           |-- evaluation_results.csv
+|           |-- summary.json
+|
+|-- Node_Classification/
+|   |-- Citeseer/
+|   |   |-- Node_classification_Citeseer.ipynb
+|   |   |-- models/
+|   |   |   |-- target/
+|   |   |   |-- positive/
+|   |   |   |-- negative/
+|   |   |-- verifier/
+|   |   |-- results/
+|   |       |-- evaluation_results.csv
+|   |       |-- summary.json
+|   |
+|   |-- Cora/
+|       |-- Node_classification_Cora.ipynb
+|       |-- models/
+|       |   |-- target/
+|       |   |-- positive/
+|       |   |-- negative/
+|       |-- verifier/
+|       |-- results/
+|           |-- evaluation_results.csv
+|           |-- summary.json
+|
+|-- Graph_Classification/
+|   |-- PROTEIN/
+|       |-- Graph_classification_PROTEIN.ipynb
+|       |-- models/
+|       |   |-- target/
+|       |   |-- positive/
+|       |   |-- negative/
+|       |-- verifier/
+|       |-- results/
+|           |-- evaluation_results.csv
+|           |-- summary.json
+
 
 ---
 
