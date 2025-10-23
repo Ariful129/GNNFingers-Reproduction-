@@ -7,7 +7,7 @@ All implementations are done in **PyTorch Geometric** and verified in **Google C
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 gnnfingers/
@@ -95,7 +95,7 @@ gnnfingers/
 
 ---
 
-## 🚀 Setup and Execution
+## Setup and Execution
 
 1. Open any `.ipynb` file in **Google Colab**.  
 2. Run all cells sequentially — each notebook handles its own dataset and task.  
@@ -109,7 +109,7 @@ gnnfingers/
 
 ---
 
-## 📊 Summary of Reproduction Results
+##  Summary of Reproduction Results
 
 | Task | Dataset | Model | Paper Accuracy | Reproduced Accuracy |
 |------|----------|--------|----------------|---------------------|
@@ -125,7 +125,7 @@ gnnfingers/
 
 ---
 
-## 💡 Novel Research Extension (Ongoing)
+##  Novel Research Extension (Ongoing)
 
 I am currently developing an enhancement to **GNNFingers** by integrating **Large Language Models (LLMs)** to intelligently design and evaluate fingerprints.
 
