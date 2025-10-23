@@ -114,12 +114,12 @@ gnnfingers/
 | Task | Dataset | Model | Paper Accuracy | Reproduced Accuracy |
 |------|----------|--------|----------------|---------------------|
 | Node Classification | Cora | GCN | 1.00 | 1.00 |
-| Node Classification | Citeseer | GraphSAGE | 0.992 | 1.00 | 
+| Node Classification | Citeseer | GraphSAGE | 1.00 | 1.00 | 
 | Graph Classification | PROTEIN | GCN | 1.00 | **1.00** |
 | Graph Matching | AIDS | SimGNN | 1.00 | 1.00 |
 | Graph Matching | LINUX | GCN | 1.00 | 1.00 | 
 | Link Prediction | Cora | GCN | 1.00 | 1.00 | 
-| Link Prediction | Citeseer | GraphSAGE | 0.870 | 1.00 |
+| Link Prediction | Citeseer | GraphSAGE | 1.00 | 1.00 |
 
 > *Due to GPU limitations, the number of surrogate models (positive/negative) was reduced, but performance remained stable or improved.*
 
